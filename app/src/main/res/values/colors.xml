@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="primaryDarkColor">#cccccc</color>
+    <color name="accentColor">#f47a20</color>
+
+    <color name="prim_color">#00199A</color>
+    <color name="cardBackgroundGrey">#3AA8C2</color>
+    <color name="white">#ffffff</color>
+    <color name="lowest_grey">#f5f5f5</color>
+    <color name="lo_grey">#EEEEEE</color>
+    <color name="grey">#757575</color>
+    <color name="default_grey">#757575</color>
+    <color name="red">#b71c1c</color>
+    <color name="green_light">#8bc34a</color>
+    <color name="orange">#f47a20</color>
+    <color name="green">#388e3c</color>
+    <color name="green_bg">#11A44C</color>
+    <color name="green_btn">#2ECC71</color>
+    <color name="red_bg">#e74c3c</color>
+    <color name="grey_800">#424242</color>
+    <color name="teal_400a">#1DE9B6</color>
+    <color name="grey_bg">#F8FAFB</color>
+
+
+
+</resources>

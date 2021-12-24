@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/featured"
+        android:name="com.client.theloop.ui.fragments.featured.FeaturedFragment"
+        android:label="fragment_featured"
+        tools:layout="@layout/fragment_featured">
+        <action
+            android:id="@+id/action_featured_to_learn"
+            app:destination="@id/learn"
+            app:exitAnim="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/learn"
+        android:name="com.client.theloop.ui.fragments.learn.LearnFragment"
+        android:label="fragment_learn"
+        tools:layout="@layout/fragment_learn">
+        <argument
+            android:name="course_id"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.client.theloop.ui.fragments.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_featured"
+            app:destination="@id/featured" />
+    </fragment>
+
+</navigation>
